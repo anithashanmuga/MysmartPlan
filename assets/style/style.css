@@ -1,0 +1,635 @@
+/***************************** Website MAin PAge **************************************/
+
+main {
+  background-color: #F2F2F2;
+  scroll-behavior: smooth;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+
+
+/***************************** NAVIGATION BAR **************************************/
+
+.navbar {
+  background-color: #F2F2F2;
+  font-size: 16px;
+  font-family: futura-pt;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: .08em;
+  text-transform: none;
+  line-height: 1em;
+}
+
+.navbar .logo-image {
+  max-width: 250px;
+  max-height: 200px;
+}
+
+
+.navbar .navbar-collapse i {
+  color: #fcb954;
+  font-size: 12px;
+}
+
+.navbar .navbar-collapse .dropdown-menu {
+  background-color: #F2F2F2;
+  font-size: 16px;
+  font-family: futura-pt;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: .08em;
+  text-transform: none;
+  line-height: 1em;
+  border: none;
+  color: #6d6d6d;
+}
+
+.navbar .navbar-collapse a {
+  background-color: #F2F2F2;
+  font-size: 16px;
+  font-family: futura-pt;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: .08em;
+  text-transform: none;
+  line-height: 1em;
+  color: #6d6d6d;
+}
+
+.navbar .navbar-collapse .dropdown-menu .dropdown-item {
+  color: #6d6d6d;
+  font-size: 16px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-menu li a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
+.btn1 {
+  background-color: #f69c1d;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+.btn1:hover {
+  background-color: #f69c1d;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 992px) {
+  main {
+    overflow: hidden;
+  }
+
+  .navbar .logo-image {
+    max-width: 200px;
+    max-height: 150px;
+  }
+}
+
+/******************************************************************************************
+*************************************    What We Plan Smart  ******************************
+******************************************************************************************/
+
+#whatwe-banner {}
+
+.whatwe-banner-bg {
+  background-image: url('../img/whatWePlan/whatwe-banner.jpg');
+  width: 100%;
+  height: 80vh !important;
+  /* opacity: 0.7; */
+  opacity: rgba(20, 21, 20, 0.3);
+  background-repeat: no-repeat;
+}
+
+#whatwe-banner .header h2 {
+  font-size: 5.0rem;
+  display: flex;
+  align-content: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+  .whatwe-banner-bg {
+    background-image: url('../img/whatWePlan/whatwe-banner.jpg');
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    opacity: 0.8;
+  }
+
+  #whatwe-banner .header h2 {
+    font-size: 2.5rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #fff;
+  }
+
+  #whatwe-banner strong {
+    font-size: 0.7rem;
+  }
+}
+
+
+/***************************** What We Plan Smart  CONTENT 1 **************************************/
+
+
+#whatwe-content1 .whatwe-image1 img {
+  width: auto;
+  height: 100vh;
+  justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+  #whatwe-content1 {
+    padding-top: 10px;
+    justify-content: center;
+  }
+}
+
+/***************************** What We Plan Smart  CONTENT 2 **************************************/
+
+.whatwe-content2 img{
+  width: 100%;
+  height: 60vh;
+}
+
+.buttton-1{
+  padding : 20px 30px;
+  font-family: futura-pt;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  transition: 0.4s;
+  /* border: #081B33; */
+  border: 1px solid black;
+  background-color: none;
+}
+
+.buttton-1:hover{
+  background-color: #081B33;
+  color: white;
+  border: 1px solid #081B33;
+}
+
+
+
+
+
+
+/******************************************************************************************
+*************************************    My Smart Cost Pages  *****************************
+******************************************************************************************/
+
+
+/***************************** smartcost-banner **************************************/
+
+
+.whatcost-banner-bg{
+  background-color: #081b33;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+#whatcost-banner .header h2 {
+  font-size: 5.0rem;
+  display: flex;
+  align-content: center;
+  color: #fff;
+}
+
+
+@media screen and (max-width: 992px) {
+  .whatcost-banner-bg {
+    background-color: #081b33;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+
+  #whatcost-banner .header h2 {
+    font-size: 2.5rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #fff;
+  }
+
+  #whatcost-banner strong {
+    font-size: 0.7rem;
+  }
+}
+
+/***************************** smartcost-Content1 Images and content **************************************/
+
+.whatcost-img{
+height: 400px;
+/* background-color: #fff; */
+}
+
+.whatcost-img-cont{
+  height: 400px;
+  background-color: #fff;
+  }
+
+/* .whatcost-img-cont{
+  width: 600px;
+height: 500px;
+background-color: #fff;
+} */
+
+/******************************************************************************************
+*************************************    My Smart Cost Pages  *****************************
+******************************************************************************************/
+
+/***************************** Sub Mitaal-Content1 Images and content **************************************/
+
+.submetaal-banner-bg{
+  background-image: url('../img/whatWePlan/slide-three.jpg');
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+#submetaal-banner .header h2 {
+  font-size: 5.0rem;
+  display: flex;
+  align-content: center;
+  color: #fff;
+}
+
+.submetaal-buttton{
+  padding : 10px 25px;
+  font-family: futura-pt;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  transition: 0.4s;
+  /* border: #081B33; */
+  border: 1px solid black;
+  background-color: none;
+}
+
+.submetaal-buttton:hover{
+  background-color: #081B33;
+  color: white;
+  border: 1px solid #081B33;
+}
+
+.submetaal-img img{
+  width: 330px;
+  height: auto;
+}
+
+
+@media screen and (max-width: 992px) {
+  .submetaal-banner-bg {
+    background-color: #081b33;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+
+  #submetaal-banner .header h2 {
+    font-size: 2.5rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #fff;
+  }
+
+  #submetaal-banner strong {
+    font-size: 0.7rem;
+  }
+}
+
+
+
+/******************************************************************************************
+*************************************    Project Close Pages  *****************************
+******************************************************************************************/
+
+/***************************** Project Close Images and content **************************************/
+
+
+.project-banner-bg{
+  background-image: url('../img/whatWePlan/AdobeStock.jpg');
+  width: 100%;
+  height: 85vh;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  background-repeat: no-repeat;
+
+}
+
+#project-banner .header h2 {
+  font-size: 5.0rem;
+  display: flex;
+  align-content: center;
+  color: #fff;
+}
+
+.project-buttton{
+  padding : 10px 25px;
+  font-family: futura-pt;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  transition: 0.4s;
+  /* border: #081B33; */
+  border: 1px solid black;
+  background-color: none;
+}
+
+.project-buttton:hover{
+  background-color: #081B33;
+  color: white;
+  border: 1px solid #081B33;
+}
+
+.project-img img{
+  width: 330px;
+  height: auto;
+}
+
+
+@media screen and (max-width: 992px) {
+  .project-banner-bg {
+    background-color: #081b33;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+
+  #project-banner .header h2 {
+    font-size: 2.5rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #fff;
+  }
+
+  #project-banner strong {
+    font-size: 0.7rem;
+  }
+}
+
+
+
+/***************************** Footer **************************************/
+
+
+#footer {
+  font-size: 14px;
+  background: #37517e;
+}
+
+#footer .footer-newsletter {
+  padding: 50px 0;
+  background: #f3f5fa;
+  text-align: center;
+  font-size: 15px;
+  color: #444444;
+}
+
+#footer .footer-newsletter h4 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  color: #37517e;
+}
+
+#footer .footer-newsletter form {
+  background: #f2f2f2;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
+  text-align: left;
+}
+
+#footer .footer-newsletter form input[type="email"] {
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 100px);
+}
+
+#footer .footer-newsletter form input[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #47b2e4;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#footer .footer-newsletter form input[type="submit"]:hover {
+  background: #209dd8;
+}
+
+#footer .footer-top {
+  /* padding: 60px 0 30px 0; */
+  background: #f2f2f2;
+}
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact h3 {
+  font-size: 28px;
+  margin: 0 0 10px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #37517e;
+}
+
+#footer .footer-top .footer-contact p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Jost", sans-serif;
+  color: #5e5e5e;
+}
+
+#footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #37517e;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: #47b2e4;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #777777;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  text-decoration: none;
+  color: #47b2e4;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #47b2e4;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #209dd8;
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer .footer-bottom {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+
+#footer .copyright {
+  float: left;
+}
+
+#footer .credits {
+  float: right;
+  font-size: 13px;
+}
+
+#footer .credits a {
+  transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  #footer .footer-bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #footer .copyright, #footer .credits {
+    text-align: center;
+    float: none;
+  }
+  #footer .credits {
+    padding-top: 4px;
+  }
+}
+
+
+.footer-img{
+    width:100px;
+    height: 100px;
+}
+
+.footer-text a{
+    color: #FFA61F;
+    text-decoration: none;
+}
+.footer-link a i {
+    color: black;
+}
+
+.footer-btn {
+  background: #FFA61F;
+ 
+  padding : 10px 20px;
+  font-family: futura-pt;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  transition: 0.4s;
+  /* border: #081B33; */
+  border: none;  
+  color: #fff;  
+  border-radius: 5px;
+}

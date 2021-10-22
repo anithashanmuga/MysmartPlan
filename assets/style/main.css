@@ -1,0 +1,936 @@
+
+
+/***************************** Large - view **************************************/
+
+
+body {
+  /* background-color: tan; */
+}
+
+/*        **********
+
+ Header or Navigation bar 
+
+***********        */
+
+.navbar {
+  background-color: #F2F2F2;
+  font-size: 16px;
+  font-family: futura-pt;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: .08em;
+  text-transform: none;
+  line-height: 1em;
+}
+
+.navbar .logo-image {
+  max-width: 250px;
+  max-height: 200px;
+
+}
+
+
+.navbar .navbar-collapse i {
+  color: #fcb954;
+  font-size: 12px;
+}
+
+.navbar .navbar-collapse .dropdown-menu {
+  background-color: #F2F2F2;
+  font-size: 16px;
+  font-family: futura-pt;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: .08em;
+  text-transform: none;
+  line-height: 1em;
+  border: none;
+  color: #6d6d6d;
+}
+
+.navbar .navbar-collapse a {
+  background-color: #F2F2F2;
+  font-size: 16px;
+  font-family: futura-pt;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: .08em;
+  text-transform: none;
+  line-height: 1em;
+  color: #6d6d6d;
+}
+
+.navbar .navbar-collapse .dropdown-menu .dropdown-item {
+  color: #6d6d6d;
+  font-size: 16px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-menu li a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
+.btn1 {
+  background-color: #f69c1d;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+.btn1:hover {
+  background-color: #f69c1d;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+
+/*        **********
+
+   BANNER BACKGROUND 
+
+***********        */
+
+.banner-bg {
+  background-image: url('../img/home-content/Dv4SpN.jpg');
+  width: 100%;
+  height: 85vh !important;
+}
+
+.home-img img {
+  width: 280px;
+  height: 450px;
+  margin: auto;
+  padding: 0%;
+}
+
+.banner-header {
+  font-family: futura-pt;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: .5em;
+  line-height: 2.6em;
+  text-transform: uppercase;
+  color: #ddd;
+  background-color: #f69c1d;
+  padding: 0%;
+  margin: auto;
+}
+
+.banner-para {
+
+  font-family: calluna;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: .01em;
+  line-height: 1em;
+  text-transform: none;
+  color: #fff;
+  font-size: 30px;
+  align-content: flex-start;
+}
+
+
+/*        **********
+
+   Content
+
+***********        */
+
+#content {
+  background-color: white;
+  height: auto;
+}
+
+#content h2 {
+
+  font-family: calluna;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.4em;
+  letter-spacing: -.01em;
+  text-transform: none;
+  color: #081b33;
+}
+
+@media screen and (max-width: 600px) {
+  #content h2 {
+      font-size: 18px;
+      font-family: calluna;
+      font-weight: 300;
+      font-style: normal;
+      line-height: 1.4em;
+      letter-spacing: -.01em;
+      text-transform: none;
+      color: #081b33;
+      align-content: stretch;
+  }
+}
+
+
+
+#content p {
+  margin-top: 1.25em;
+  margin-bottom: 1.6em;
+}
+
+#content .sqs-block-html .sqs-block-content {
+  outline: none;
+}
+
+/* ***********
+      content-img
+  ********* */
+
+#content-img {
+  background-color: #f2f2f2;
+}
+
+/* ***********
+     Eliminate
+
+  ********* */
+
+#Eliminate {
+  width: auto;
+  min-height: 90vh !important;
+  background-color: #f2f2f2;
+}
+
+#co-img {
+  width: auto;
+  background-color: #f2f2f2;
+}
+
+.eliminate-text h2 strong {
+  font-size: 24px;
+  color: #081b33;
+  font-family: calluna;
+}
+
+.eliminate-text p {
+  font-size: 18px;
+  color: #081B33CC;
+  font-family: futura-pt;
+}
+
+.buttton-1{
+  padding : 20px 30px;
+  font-family: futura-pt;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  transition: 0.4s;
+  /* border: #081B33; */
+  border: 1px solid black;
+  background-color: none;
+}
+
+.buttton-1:hover{
+  background-color: #081B33;
+  color: white;
+  border: 1px solid #081B33;
+}
+
+.eli-image {
+  width: auto;
+  height: 300px;
+
+}
+
+/* / ******************
+    container
+  **************** / */
+
+  #container{
+
+  }
+
+  .image-with iframe{
+    width: 500px;
+    height: 300px;
+  }
+
+  .container-text span{
+    font-size: 14px;
+  }
+
+  .image-with1 iframe {
+    width: 100% !important;
+    height: 90vh;
+}
+
+
+
+
+/***************************** Medium - view **************************************/
+
+
+
+@media screen and (max-width: 1244px) {
+  body {
+    /* background-color: pink; */
+  }
+
+  /*        **********
+
+ Header or Navigation bar 
+
+***********        */
+
+  .navbar {
+    background-color: #F2F2F2;
+    font-size: 13px;
+    font-family: futura-pt;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: .05em;
+    text-transform: none;
+    line-height: 1em;
+  }
+
+  .navbar .logo-image {
+    max-width: 200px;
+    max-height: 180px;
+
+  }
+
+
+  .navbar .navbar-collapse i {
+    color: #fcb954;
+    font-size: 12px;
+  }
+
+  .navbar .navbar-collapse .dropdown-menu {
+    background-color: #F2F2F2;
+    font-size: 14px;
+    font-family: futura-pt;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: .08em;
+    text-transform: none;
+    line-height: 1em;
+    border: none;
+    color: #6d6d6d;
+  }
+
+  .navbar .navbar-collapse a {
+    background-color: #F2F2F2;
+    font-size: 14px;
+    font-family: futura-pt;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: .08em;
+    text-transform: none;
+    line-height: 1em;
+    color: #6d6d6d;
+  }
+
+  .navbar .navbar-collapse .dropdown-menu .dropdown-item {
+    color: #6d6d6d;
+    font-size: 14px;
+  }
+
+  .btn1 {
+    background-color: #f69c1d;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+
+  .btn1:hover {
+    background-color: #f69c1d;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+
+
+
+  /*        **********
+
+   BANNER BACKGROUND 
+
+***********        */
+  .home-img img {
+    width: 200px;
+    height: 350px;
+    margin: auto;
+    padding: 0%;
+  }
+
+  .banner-bg {
+    background-image: url('../img/home-content/Dv4SpN.jpg');
+    width: 100%;
+    height: 75vh !important;
+  }
+
+  .banner-header {
+    font-family: futura-pt;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: .3em;
+    line-height: 2.0em;
+    text-transform: uppercase;
+    color: #ddd;
+    background-color: #f69c1d;
+  }
+
+  .banner-header h3 {
+    font-family: futura-pt;
+    font-size: 18px;
+  }
+
+  .banner-para {
+
+    font-family: calluna;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: .01em;
+    line-height: 1em;
+    text-transform: none;
+    color: #fff;
+    font-size: 24px;
+    align-content: flex-start;
+  }
+
+
+  /*        **********
+
+   BANNER BACKGROUND 
+
+***********        */
+
+  #content {
+    background-color: white;
+    height: auto;
+  }
+
+  #content h2 {
+
+    font-family: calluna;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.4em;
+    letter-spacing: -.01em;
+    text-transform: none;
+    color: #081b33;
+}
+
+@media screen and (max-width: 600px) {
+    #content h2 {
+        font-size: 18px;
+        font-family: calluna;
+        font-weight: 300;
+        font-style: normal;
+        line-height: 1.4em;
+        letter-spacing: -.01em;
+        text-transform: none;
+        color: #081b33;
+        align-content: stretch;
+    }
+}
+
+
+
+#content p {
+    margin-top: 1.25em;
+    margin-bottom: 1.6em;
+}
+
+#content .sqs-block-html .sqs-block-content {
+    outline: none;
+}
+
+/* ***********
+        content-img
+    ********* */
+
+#content-img {
+    background-color: #f2f2f2;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+/***************************** tab - view **************************************/
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  body {
+    /* background-color: blue; */
+  }
+
+
+
+  /*        **********
+
+   BANNER BACKGROUND 
+
+***********        */
+
+  #content {
+    background-color: white;
+    height: auto;
+  }
+
+  #content h2 {
+
+    font-family: calluna;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.4em;
+    letter-spacing: -.01em;
+    text-transform: none;
+    color: #081b33;
+}
+
+@media screen and (max-width: 600px) {
+    #content h2 {
+        font-size: 18px;
+        font-family: calluna;
+        font-weight: 300;
+        font-style: normal;
+        line-height: 1.4em;
+        letter-spacing: -.01em;
+        text-transform: none;
+        color: #081b33;
+        align-content: stretch;
+    }
+}
+
+
+
+#content p {
+    margin-top: 1.25em;
+    margin-bottom: 1.6em;
+}
+
+#content .sqs-block-html .sqs-block-content {
+    outline: none;
+}
+
+/* ***********
+        content-img
+    ********* */
+
+#content-img {
+    background-color: #f2f2f2;
+}
+
+}
+
+
+
+
+
+
+
+
+/***************************** Mobile-small - view **************************************/
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body {
+    /* background-color: olive; */
+  }
+
+  .home-img img {
+    width: 100px;
+    height: 150px;
+    margin: auto;
+    padding: 10%;
+  }
+
+  .banner-bg {
+    background-image: url('../img/home-content/Dv4SpN.jpg');
+    width: 100%;
+    height: 40vh !important;
+  }
+
+  .banner-header {
+    font-family: futura-pt;
+    color: #ddd;
+    background-color: #f69c1d;
+  }
+
+  .banner-header h3 {
+    font-family: futura-pt;
+    font-size: 12px;
+  }
+
+  .banner-para {
+
+    font-family: calluna;
+    letter-spacing: .01em;
+    line-height: 1em;
+    text-transform: none;
+    color: #fff;
+    font-size: 16px;
+    align-content: flex-center;
+  }
+
+  /*        **********
+
+   BANNER BACKGROUND 
+
+***********        */
+
+  #content {
+    background-color: white;
+    height: auto;
+  }
+
+  #content h2 {
+
+    font-family: calluna;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.4em;
+    letter-spacing: -.01em;
+    text-transform: none;
+    color: #081b33;
+}
+
+@media screen and (max-width: 600px) {
+    #content h2 {
+        font-size: 18px;
+        font-family: calluna;
+        font-weight: 300;
+        font-style: normal;
+        line-height: 1.4em;
+        letter-spacing: -.01em;
+        text-transform: none;
+        color: #081b33;
+        align-content: stretch;
+    }
+}
+
+
+
+#content p {
+    margin-top: 1.25em;
+    margin-bottom: 1.6em;
+}
+
+#content .sqs-block-html .sqs-block-content {
+    outline: none;
+}
+
+
+
+/* ***********
+        content-img
+    ********* */
+
+#content-img {
+    background-color: #f2f2f2;
+}
+
+.content-text{
+  font-size: 12px;
+}
+
+/* / ************
+
+Eliminate
+
+****************** / */
+
+#Eliminate .eli-image img{
+width: auto;
+height: 250px;
+}
+
+
+/******************  
+    co-img
+*************************/
+
+#co-img img{
+  width: auto;
+  height: 200px !important;
+}
+
+/* / ******************
+    container
+  **************** / */
+
+  #container{
+
+  }
+
+  .image-with iframe{
+    width: auto;
+    height: 200px;
+  }
+
+  .container-text span{
+    font-size: 14px;
+  }
+
+  #contact {
+    background-color: #f2f2f2;
+  }
+
+  .image-with1 iframe {
+    width: 100% !important;
+    height: 90vh;
+}
+
+}
+
+
+#footer {
+  font-size: 14px;
+  background: #37517e;
+}
+
+#footer .footer-newsletter {
+  padding: 50px 0;
+  background: #f3f5fa;
+  text-align: center;
+  font-size: 15px;
+  color: #444444;
+}
+
+#footer .footer-newsletter h4 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  color: #37517e;
+}
+
+#footer .footer-newsletter form {
+  background: #f2f2f2;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
+  text-align: left;
+}
+
+#footer .footer-newsletter form input[type="email"] {
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 100px);
+}
+
+#footer .footer-newsletter form input[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #47b2e4;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#footer .footer-newsletter form input[type="submit"]:hover {
+  background: #209dd8;
+}
+
+#footer .footer-top {
+  /* padding: 60px 0 30px 0; */
+  background: #f2f2f2;
+}
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact h3 {
+  font-size: 28px;
+  margin: 0 0 10px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #37517e;
+}
+
+#footer .footer-top .footer-contact p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Jost", sans-serif;
+  color: #5e5e5e;
+}
+
+#footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #37517e;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: #47b2e4;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #777777;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  text-decoration: none;
+  color: #47b2e4;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #47b2e4;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #209dd8;
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer .footer-bottom {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+
+#footer .copyright {
+  float: left;
+}
+
+#footer .credits {
+  float: right;
+  font-size: 13px;
+}
+
+#footer .credits a {
+  transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  #footer .footer-bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #footer .copyright, #footer .credits {
+    text-align: center;
+    float: none;
+  }
+  #footer .credits {
+    padding-top: 4px;
+  }
+}
+
+
+.footer-img{
+    width:100px;
+    height: 100px;
+}
+
+.footer-text a{
+    color: #FFA61F;
+    text-decoration: none;
+}
+.footer-link a i {
+    color: black;
+}
+
+.footer-btn {
+  background: #FFA61F;
+ 
+  padding : 10px 20px;
+  font-family: futura-pt;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  transition: 0.4s;
+  /* border: #081B33; */
+  border: none;  
+  color: #fff;  
+  border-radius: 5px;
+}
