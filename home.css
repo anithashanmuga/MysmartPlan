@@ -111,6 +111,12 @@ body {
 /* ************************************** Banner/ Home page ************************************/
 
 
+@font-face {
+  font-family: 'Calluna-Regular';
+  src: url('./assets/font/Calluna-Regular.otf') format("opentype");
+}
+
+
 body {
   background-color: #f2f2f2;
 }
@@ -161,7 +167,7 @@ body {
 .content h2 {
  font-size: 27px;
  color: #081B33;
- font-family: calluna;
+ font-family: Calluna-Regular;
 
 }
 
@@ -191,14 +197,14 @@ body {
  .eliminate h2 {
   font-size: 27px;
   color: #081B33;
-  font-family: calluna;
+  font-family: Calluna-Regular;
  
  }
  
  .eliminate strong {
    font-size: 20px;
    color: #081B33CC;
-   font-family: calluna;
+   font-family: Calluna-Regular;
   }
  
   .eliminate p {
@@ -240,7 +246,7 @@ body {
     color: #081B33;
     font-size: 30px;
     margin: 0 0 0 30.72px;
-    font-family: calluna;
+    font-family: Calluna-Regular;
   }
 
   .content-1 span{
@@ -259,14 +265,14 @@ body {
   .contact h2{
     color: #081B33;
     font-size: 20px;
-    font-family: calluna;
+    font-family: Calluna-Regular;
     margin: 0 0 16px;
   }
 
   .contact h1{
     color: #081B33;
     font-size: 30px;
-    font-family: calluna;
+    font-family: Calluna-Regular;
   }
 
 
