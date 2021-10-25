@@ -1,0 +1,491 @@
+body {
+  /* background-color: tan; */
+}
+
+/*        **********
+  
+   Header or Navigation bar 
+  
+  ***********        */
+
+.navbar {
+  background-color: #F2F2F2;
+  font-size: 16px;
+  font-family: futura-pt;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: .08em;
+  text-transform: none;
+  line-height: 1em;
+}
+
+.navbar .logo-image {
+  /* max-width: 300px;
+    max-height: 250px; */
+
+}
+
+
+.navbar .navbar-collapse i {
+  color: #fcb954;
+  font-size: 12px;
+}
+
+.navbar .navbar-collapse .dropdown-menu {
+  background-color: #F2F2F2;
+  font-size: 16px;
+  font-family: futura-pt;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: .08em;
+  text-transform: none;
+  line-height: 1em;
+  border: none;
+  color: #6d6d6d;
+}
+
+.navbar .navbar-collapse a {
+  background-color: #F2F2F2;
+  font-size: 16px;
+  font-family: futura-pt;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: .08em;
+  text-transform: none;
+  line-height: 1em;
+  color: #6d6d6d;
+}
+
+.navbar .navbar-collapse .dropdown-menu .dropdown-item {
+  color: #6d6d6d;
+  font-size: 16px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-menu li a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
+.btn1 {
+  background-color: #f69c1d;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+.btn1:hover {
+  background-color: #f69c1d;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+
+/* ************************************** Banner/ Home page ************************************/
+
+
+body {
+  background-color: #f2f2f2;
+}
+
+.banner {
+  background-image: url('./assets/img/home-content/background.jpg');
+  width: 100%;
+  height: 80vh;
+  background-repeat: no-repeat;
+}
+
+
+#perspective {
+  -webkit-transform-style: flat;
+  -webkit-perspective: 1000px;
+}
+
+#model1 {
+  -webkit-transform: rotateY(65deg);
+  transform: rotateY(35deg);
+
+}
+
+.banner-font {
+  margin: 6rem 0 0;
+  margin-left: -5rem;
+  padding: 1rem;
+  background-color: #f69c1d;
+  color: #fff;
+  font-size: 38px;
+  font-family: futura-pt;
+  text-align: center;
+}
+
+.banner-para{
+  text-align: justify;
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+  font-family: futura-pt;
+}
+
+
+.content {
+  text-align: justify;
+ 
+}
+.content h2 {
+ font-size: 27px;
+ color: #081B33;
+ font-family: calluna;
+
+}
+
+.content strong {
+  font-size: 18px;
+  color: #081B33CC;
+  font-family: futura-pt;
+ }
+
+ .content p {
+  font-size: 18px;
+  color: #081B33CC;
+  font-family: futura-pt;
+ }
+
+
+
+
+
+
+
+
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  .banner {
+    background-image: url('./assets/img/home-content/background.jpg');
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+  }
+
+  .image_container img {
+    width: auto;
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-top: 40px;
+    overflow: hidden;
+  }
+
+  .banner-font {
+    margin: 6rem 0 0 ;
+    margin-left: -5rem;
+    padding: 1rem;
+    background-color: #f69c1d;
+    color: #fff;
+    font-size: 20px;
+    font-family: futura-pt;
+    text-align: center;
+  }
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+  .banner {
+    background-image: url('./assets/img/home-content/background.jpg');
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+  }
+
+  .image_container img {
+    width: 230px;
+    height: 300px;
+    overflow: hidden;
+  }
+
+  .navbar .logo-image {
+    max-width: 200px;
+    max-height: 150px;
+
+  }
+
+  .banner-font {
+    margin: auto;
+    font-size: 18px !important;
+    background-color: #f69c1d;
+    color: #fff;
+    font-family: futura-pt;
+    text-align: center;
+  }
+
+  .banner-para{
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    font-family: futura-pt;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************** Footer **************************************/
+
+
+#footer {
+  font-size: 14px;
+  background: #37517e;
+}
+
+#footer .footer-newsletter {
+  padding: 50px 0;
+  background: #f3f5fa;
+  text-align: center;
+  font-size: 15px;
+  color: #444444;
+}
+
+#footer .footer-newsletter h4 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  color: #37517e;
+}
+
+#footer .footer-newsletter form {
+  background: #f2f2f2;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
+  text-align: left;
+}
+
+#footer .footer-newsletter form input[type="email"] {
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 100px);
+}
+
+#footer .footer-newsletter form input[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #47b2e4;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#footer .footer-newsletter form input[type="submit"]:hover {
+  background: #209dd8;
+}
+
+#footer .footer-top {
+  /* padding: 60px 0 30px 0; */
+  background: #f2f2f2;
+}
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact h3 {
+  font-size: 28px;
+  margin: 0 0 10px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #37517e;
+}
+
+#footer .footer-top .footer-contact p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Jost", sans-serif;
+  color: #5e5e5e;
+}
+
+#footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #37517e;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: #47b2e4;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #777777;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  text-decoration: none;
+  color: #47b2e4;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #47b2e4;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #209dd8;
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer .footer-bottom {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+
+#footer .copyright {
+  float: left;
+}
+
+#footer .credits {
+  float: right;
+  font-size: 13px;
+}
+
+#footer .credits a {
+  transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  #footer .footer-bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #footer .copyright,
+  #footer .credits {
+    text-align: center;
+    float: none;
+  }
+
+  #footer .credits {
+    padding-top: 4px;
+  }
+}
+
+
+.footer-img {
+  width: 100px;
+  height: 100px;
+}
+
+.footer-text a {
+  color: #FFA61F;
+  text-decoration: none;
+}
+
+.footer-link a i {
+  color: black;
+}
+
+.footer-btn {
+  background: #FFA61F;
+  padding: 10px 20px;
+  font-family: futura-pt;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  transition: 0.4s;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
