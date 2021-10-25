@@ -178,7 +178,96 @@ body {
  }
 
 
+ .eliminate{
+  text-align: justify;
+ }
 
+ .eliminate img{
+   width: 100%;
+   height: 670px;
+   overflow: hidden;
+ }
+
+ .eliminate h2 {
+  font-size: 27px;
+  color: #081B33;
+  font-family: calluna;
+ 
+ }
+ 
+ .eliminate strong {
+   font-size: 20px;
+   color: #081B33CC;
+   font-family: calluna;
+  }
+ 
+  .eliminate p {
+   font-size: 18px;
+   color: #081B33CC;
+   font-family: futura-pt;
+  }
+
+  .buttton-1{
+    padding : 20px 30px;
+    font-family: futura-pt;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    transition: 0.4s;
+    /* border: #081B33; */
+    border: 1px solid black;
+    background-color: none;
+  }
+  
+ .buttton-1:hover{
+    background-color: #081B33;
+    color: white;
+    border: 1px solid #081B33;
+  }
+
+  .content-1{
+    text-align: justify;
+  }
+
+  .content-1 iframe{
+    width: 430px;
+    height: 300px;
+
+  }
+
+  .content-1 h2{
+    text-align: justify;
+    color: #081B33;
+    font-size: 27px;
+    margin: 0 0 0 30.72px;
+    font-family: calluna;
+  }
+
+  .content-1 span{
+    text-align: justify;
+    color: #E54A35;
+    font-size: 12px;
+    font-family:  futura-pt;
+  }
+
+
+  .contact{
+    text-align: justify;
+
+  }
+
+  .contact h2{
+    color: #081B33;
+    font-size: 20px;
+    font-family: calluna;
+    margin: 0 0 16px;
+  }
+
+  .contact h1{
+    color: #081B33;
+    font-size: 30px;
+    font-family: calluna;
+  }
 
 
 
