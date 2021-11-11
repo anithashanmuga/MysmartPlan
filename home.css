@@ -20,8 +20,8 @@ body {
 }
 
 .navbar .logo-image {
-  /* max-width: 300px;
-    max-height: 250px; */
+  max-width: 300px;
+    max-height: 250px;
 
 }
 
@@ -108,6 +108,10 @@ body {
 }
 
 
+
+
+
+
 /* ************************************** Banner/ Home page ************************************/
 
 
@@ -121,47 +125,45 @@ body {
   background-color: #f2f2f2;
 }
 
-.banner {
-  background-image: url('./assets/img/home-content/background.jpg');
+.banners{
+  background-image: url('./assets/img/home-content/Group\ 18.png');
   width: 100%;
-  height: 80vh;
+  height: 100%;
   background-repeat: no-repeat;
 }
 
-
-#perspective {
+/* #perspective {
   -webkit-transform-style: flat;
   -webkit-perspective: 1000px;
 }
 
 #model1 {
-  -webkit-transform: rotateY(65deg);
+  -webkit-transform: rotateY(85deg);
   transform: rotateY(35deg);
 
-}
+} */
 
 .banner-font {
-  margin: 6rem 0 0;
-  margin-left: -5rem;
+  margin: 9rem 0 0;
+  margin-left: -8rem;
   padding: 1rem;
   background-color: #f69c1d;
   color: #fff;
-  font-size: 38px;
+  font-size: 40px;
   font-family: futura-pt;
   text-align: center;
 }
 
 .banner-para{
-  text-align: justify;
-  font-size: 30px;
-  font-weight: 300;
+  font-size: 35px;
+  font-weight: 100;
   color: #fff;
   font-family: futura-pt;
 }
 
 
 .content {
-  text-align: justify;
+  /* text-align: justify; */
  
 }
 .content h2 {
@@ -185,7 +187,7 @@ body {
 
 
  .eliminate{
-  text-align: justify;
+  /* text-align: justify; */
  }
 
  .eliminate img{
@@ -232,7 +234,7 @@ body {
   }
 
   .content-1{
-    text-align: justify;
+    /* text-align: justify; */
   }
 
   .content-1 iframe{
@@ -242,7 +244,7 @@ body {
   }
 
   .content-1 h2{
-    text-align: justify;
+    /* text-align: justify; */
     color: #081B33;
     font-size: 30px;
     margin: 0 0 0 30.72px;
@@ -250,7 +252,7 @@ body {
   }
 
   .content-1 span{
-    text-align: justify;
+    /* text-align: justify; */
     color: #E54A35;
     font-size: 12px;
     font-family:  futura-pt;
@@ -264,94 +266,137 @@ body {
 
   .contact h2{
     color: #081B33;
-    font-size: 20px;
+    font-size: 24px;
     font-family: Calluna-Regular;
-    margin: 0 0 16px;
+    margin: 8px 0px;
   }
 
   .contact h1{
     color: #081B33;
-    font-size: 30px;
+    font-size: 31px;
     font-family: Calluna-Regular;
   }
 
 
 
+@media screen and (min-width: 992px) { 
+  .logo-image {
+    width: 200px;
+    padding: 0%;
+  }
 
-
-
-
-/* On screens that are 992px or less, set the background color to blue */
-@media screen and (max-width: 992px) {
-  .banner {
-    background-image: url('./assets/img/home-content/background.jpg');
+  .banners{
+    
+    background-image: url('./assets/img/home-content/Group\ 18.png');
     width: 100%;
-    height: 50vh;
+    height: 85vh;
     background-repeat: no-repeat;
   }
 
-  .image_container img {
-    width: auto;
-    height: 300px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-top: 40px;
-    overflow: hidden;
+  .banner-img img {
+  margin-top: 4rem;
+  width: 250px;
+  height: 350px;
+  margin-left: 3rem;
+  }
+  
+
+
+
+
+}
+
+
+      /* ****************************************** 
+            Tab view 
+  ******************************************* */
+
+
+@media screen and (max-width: 992px) {
+
+  .logo-image {
+    width: 200px;
+    padding: 0%;
+  }
+
+  .banners{
+    background-image: url('./assets/img/home-content/Group\ 18.png');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .banner-img img {
+  margin-top: 2rem;
+  width: 140px;
+  height: 230px;
   }
 
   .banner-font {
-    margin: 6rem 0 0 ;
-    margin-left: -5rem;
+    margin: 4rem 0 0;
+    margin-left: -3rem;
     padding: 1rem;
     background-color: #f69c1d;
     color: #fff;
-    font-size: 20px;
+    font-size: 24px;
     font-family: futura-pt;
     text-align: center;
   }
+  
+  .banner-para{
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 100;
+    color: #fff;
+    font-family: futura-pt;
+  }
+
 }
 
 
 
 
+      /* ******************************************
+              mobile view
+  ******************************************* */
+
+
+/* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
 
-  .banner {
-    background-image: url('./assets/img/home-content/background.jpg');
+  .banners{
+    background-image: url('./assets/img/home-content/Group\ 18.png');
     width: 100%;
-    height: 90vh;
+    height: auto;
     background-repeat: no-repeat;
   }
 
-  .image_container img {
-    width: 230px;
-    height: 300px;
-    overflow: hidden;
-  }
-
-  .navbar .logo-image {
-    max-width: 200px;
-    max-height: 150px;
-
+  .banner-img img {
+    margin-top: 2rem;
+    width: 90px;
+    height: 150px;
   }
 
   .banner-font {
-    margin: auto;
-    font-size: 18px !important;
+    margin: 4rem 0 0;
+    margin-left: -4rem;
+    padding: 1rem;
     background-color: #f69c1d;
     color: #fff;
+    font-size: 14px;
     font-family: futura-pt;
     text-align: center;
   }
-
+  
   .banner-para{
-    text-align: center;
-    font-size: 14px;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 100;
     color: #fff;
     font-family: futura-pt;
   }
 }
+
 
 
 
