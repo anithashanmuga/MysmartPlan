@@ -1,30 +1,34 @@
+@font-face {
+  font-family: 'Calluna-Regular';
+  src: url('./assets/font/Calluna-Regular.otf') format("opentype");
+}
+
 body {
-  /* background-color: tan; */
+  /* background-color: #f2f2f2; */
+  font-family: "futura-pt", "Calluna-Regular";
+  margin: 0;
 }
 
-/*        **********
-  
-   Header or Navigation bar 
-  
-  ***********        */
+.logo {
+  width: auto;
+  height: auto;
+}
 
-.navbar {
-  background-color: #F2F2F2;
+.bg-header {
+  background-color: #f2f2f2;
+}
+
+.nav-link {
   font-size: 16px;
-  font-family: futura-pt;
-  font-weight: 500;
-  font-style: normal;
-  letter-spacing: .08em;
-  text-transform: none;
-  line-height: 1em;
+  font-family: "futura-pt";
+  color: #6D6D6D;
 }
 
-.navbar .logo-image {
-  max-width: 300px;
-    max-height: 250px;
-
+.header {
+  font-size: 18px;
+  font-family: "futura-pt";
+  color: #6D6D6D;
 }
-
 
 .navbar .navbar-collapse i {
   color: #fcb954;
@@ -66,15 +70,6 @@ body {
   display: inline-block;
 }
 
-.dropdown-menu {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
 .dropdown-menu li a {
   color: black;
   padding: 12px 16px;
@@ -90,542 +85,221 @@ body {
   display: block;
 }
 
-
-.btn1 {
+.header-btn {
   background-color: #f69c1d;
-  color: white;
+  color: #fff;
   font-size: 16px;
-  font-weight: 500;
-  border-radius: 4px;
 }
 
-.btn1:hover {
-  background-color: #f69c1d;
-  color: white;
-  font-size: 16px;
-  font-weight: 500;
-  border-radius: 4px;
-}
-
-
-
-
-
-
-/* ************************************** Banner/ Home page ************************************/
-
-
-@font-face {
-  font-family: 'Calluna-Regular';
-  src: url('./assets/font/Calluna-Regular.otf') format("opentype");
-}
-
-
-body {
-  background-color: #f2f2f2;
-}
-
-.banners{
-  background-image: url('./assets/img/home-content/Group\ 18.png');
+.banners {
   width: 100%;
   height: 100%;
-  background-repeat: no-repeat;
+  overflow: hidden;
 }
 
-/* #perspective {
-  -webkit-transform-style: flat;
-  -webkit-perspective: 1000px;
-}
-
-#model1 {
-  -webkit-transform: rotateY(85deg);
-  transform: rotateY(35deg);
-
-} */
-
-.banner-font {
-  margin: 9rem 0 0;
-  margin-left: -8rem;
-  padding: 1rem;
-  background-color: #f69c1d;
-  color: #fff;
-  font-size: 40px;
-  font-family: futura-pt;
-  text-align: center;
-}
-
-.banner-para{
-  font-size: 35px;
-  font-weight: 100;
-  color: #fff;
-  font-family: futura-pt;
-}
-
-
-.content {
-  /* text-align: justify; */
- 
-}
-.content h2 {
- font-size: 27px;
- color: #081B33;
- font-family: Calluna-Regular;
-
-}
-
-.content strong {
-  font-size: 18px;
-  color: #081B33CC;
-  font-family: futura-pt;
- }
-
- .content p {
-  font-size: 18px;
-  color: #081B33CC;
-  font-family: futura-pt;
- }
-
-
- .eliminate{
-  /* text-align: justify; */
- }
-
- .eliminate img{
-   width: 100%;
-   height: 670px;
-   overflow: hidden;
- }
-
- .eliminate h2 {
+h2 {
   font-size: 27px;
+  margin: 0px 0px 22.41px;
   color: #081B33;
-  font-family: Calluna-Regular;
- 
- }
- 
- .eliminate strong {
-   font-size: 20px;
-   color: #081B33CC;
-   font-family: Calluna-Regular;
-  }
- 
-  .eliminate p {
-   font-size: 18px;
-   color: #081B33CC;
-   font-family: futura-pt;
-  }
-
-  .buttton-1{
-    padding : 20px 30px;
-    font-family: futura-pt;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    transition: 0.4s;
-    /* border: #081B33; */
-    border: 1px solid black;
-    background-color: none;
-  }
-  
- .buttton-1:hover{
-    background-color: #081B33;
-    color: white;
-    border: 1px solid #081B33;
-  }
-
-  .content-1{
-    /* text-align: justify; */
-  }
-
-  .content-1 iframe{
-    width: 430px;
-    height: 300px;
-
-  }
-
-  .content-1 h2{
-    /* text-align: justify; */
-    color: #081B33;
-    font-size: 30px;
-    margin: 0 0 0 30.72px;
-    font-family: Calluna-Regular;
-  }
-
-  .content-1 span{
-    /* text-align: justify; */
-    color: #E54A35;
-    font-size: 12px;
-    font-family:  futura-pt;
-  }
-
-
-  .contact{
-    text-align: justify;
-
-  }
-
-  .contact h2{
-    color: #081B33;
-    font-size: 24px;
-    font-family: Calluna-Regular;
-    margin: 8px 0px;
-  }
-
-  .contact h1{
-    color: #081B33;
-    font-size: 31px;
-    font-family: Calluna-Regular;
-  }
-
-
-
-@media screen and (min-width: 992px) { 
-  .logo-image {
-    width: 200px;
-    padding: 0%;
-  }
-
-  .banners{
-    
-    background-image: url('./assets/img/home-content/Group\ 18.png');
-    width: 100%;
-    height: 85vh;
-    background-repeat: no-repeat;
-  }
-
-  .banner-img img {
-  margin-top: 4rem;
-  width: 250px;
-  height: 350px;
-  margin-left: 3rem;
-  }
-  
-
-
-
-
+  font-family: "Calluna-Regular";
 }
 
-
-      /* ****************************************** 
-            Tab view 
-  ******************************************* */
-
-
-@media screen and (max-width: 992px) {
-
-  .logo-image {
-    width: 200px;
-    padding: 0%;
-  }
-
-  .banners{
-    background-image: url('./assets/img/home-content/Group\ 18.png');
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-  }
-
-  .banner-img img {
-  margin-top: 2rem;
-  width: 140px;
-  height: 230px;
-  }
-
-  .banner-font {
-    margin: 4rem 0 0;
-    margin-left: -3rem;
-    padding: 1rem;
-    background-color: #f69c1d;
-    color: #fff;
-    font-size: 24px;
-    font-family: futura-pt;
-    text-align: center;
-  }
-  
-  .banner-para{
-    padding-top: 10px;
-    font-size: 18px;
-    font-weight: 100;
-    color: #fff;
-    font-family: futura-pt;
-  }
-
-}
-
-
-
-
-      /* ******************************************
-              mobile view
-  ******************************************* */
-
-
-/* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 600px) {
-
-  .banners{
-    background-image: url('./assets/img/home-content/Group\ 18.png');
-    width: 100%;
-    height: auto;
-    background-repeat: no-repeat;
-  }
-
-  .banner-img img {
-    margin-top: 2rem;
-    width: 90px;
-    height: 150px;
-  }
-
-  .banner-font {
-    margin: 4rem 0 0;
-    margin-left: -4rem;
-    padding: 1rem;
-    background-color: #f69c1d;
-    color: #fff;
-    font-size: 14px;
-    font-family: futura-pt;
-    text-align: center;
-  }
-  
-  .banner-para{
-    padding-top: 10px;
-    font-size: 18px;
-    font-weight: 100;
-    color: #fff;
-    font-family: futura-pt;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/***************************** Footer **************************************/
-
-
-#footer {
-  font-size: 14px;
-  background: #37517e;
-}
-
-#footer .footer-newsletter {
-  padding: 50px 0;
-  background: #f3f5fa;
-  text-align: center;
-  font-size: 15px;
-  color: #444444;
-}
-
-#footer .footer-newsletter h4 {
-  font-size: 24px;
-  margin: 0 0 20px 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 600;
-  color: #37517e;
-}
-
-#footer .footer-newsletter form {
-  background: #f2f2f2;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 50px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
-  text-align: left;
-}
-
-#footer .footer-newsletter form input[type="email"] {
-  border: 0;
-  padding: 4px 8px;
-  width: calc(100% - 100px);
-}
-
-#footer .footer-newsletter form input[type="submit"] {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  background: #47b2e4;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 50px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-#footer .footer-newsletter form input[type="submit"]:hover {
-  background: #209dd8;
-}
-
-#footer .footer-top {
-  /* padding: 60px 0 30px 0; */
-  background: #f2f2f2;
-}
-
-#footer .footer-top .footer-contact {
-  margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-contact h3 {
-  font-size: 28px;
-  margin: 0 0 10px 0;
-  padding: 2px 0 2px 0;
-  line-height: 1;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: #37517e;
-}
-
-#footer .footer-top .footer-contact p {
-  font-size: 14px;
-  line-height: 24px;
-  margin-bottom: 0;
-  font-family: "Jost", sans-serif;
-  color: #5e5e5e;
-}
-
-#footer .footer-top h4 {
-  font-size: 16px;
-  font-weight: bold;
-  color: #37517e;
-  position: relative;
-  padding-bottom: 12px;
-}
-
-#footer .footer-top .footer-links {
-  margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-#footer .footer-top .footer-links ul i {
-  padding-right: 2px;
-  color: #47b2e4;
+strong {
   font-size: 18px;
-  line-height: 1;
+  color: #081B33CC;
+  font-family: "futura-pt";
+  font-weight: 900;
 }
 
-#footer .footer-top .footer-links ul li {
-  padding: 10px 0;
-  display: flex;
-  align-items: center;
-}
-
-#footer .footer-top .footer-links ul li:first-child {
-  padding-top: 0;
-}
-
-#footer .footer-top .footer-links ul a {
-  color: #777777;
-  transition: 0.3s;
-  display: inline-block;
-  line-height: 1;
-}
-
-#footer .footer-top .footer-links ul a:hover {
-  text-decoration: none;
-  color: #47b2e4;
-}
-
-#footer .footer-top .social-links a {
+p {
   font-size: 18px;
-  display: inline-block;
-  background: #47b2e4;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-
-#footer .footer-top .social-links a:hover {
-  background: #209dd8;
-  color: #fff;
-  text-decoration: none;
-}
-
-#footer .footer-bottom {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  color: #fff;
-}
-
-#footer .copyright {
-  float: left;
-}
-
-#footer .credits {
-  float: right;
-  font-size: 13px;
-}
-
-#footer .credits a {
-  transition: 0.3s;
-}
-
-@media (max-width: 768px) {
-  #footer .footer-bottom {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  #footer .copyright,
-  #footer .credits {
-    text-align: center;
-    float: none;
-  }
-
-  #footer .credits {
-    padding-top: 4px;
-  }
+  color: #081B33CC;
+  font-family: "futura-pt";
+  margin: 22.5px 0px 28.8px;
 }
 
 
-.footer-img {
-  width: 100px;
-  height: 100px;
-}
-
-.footer-text a {
-  color: #FFA61F;
-  text-decoration: none;
-}
-
-.footer-link a i {
-  color: black;
-}
-
-.footer-btn {
-  background: #FFA61F;
-  padding: 10px 20px;
-  font-family: futura-pt;
+.buttton {
+  padding: 20px 30px;
+  font-family: "futura-pt";
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
   transition: 0.4s;
-  border: none;
-  color: #fff;
-  border-radius: 5px;
+  /* border: #081B33; */
+  border: 1px solid black;
+  background-color: #fff;
+}
+
+.buttton:hover {
+  background-color: #081B33;
+  color: white;
+  border: 1px solid #081B33;
+}
+
+.buttton-1 {
+  padding: 10px 20px;
+  font-family: "futura-pt";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  transition: 0.4s;
+  /* border: #081B33; */
+  border: 1px solid black;
+  background-color: white;
+}
+
+.buttton-1:hover {
+  background-color: #081B33;
+  color: white;
+  border: 1px solid #081B33;
+}
+
+.content-1 iframe {
+  width: 550px;
+  height: 300px;
+
+}
+
+/* *********************************************************************************
+*******************         Eliminate       *************************************
+********************************************************************************* */
+
+.eliminate img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#Eliminate strong {
+  font-size: 27px;
+  color: #081B33;
+  font-family: "Calluna-Regular";
+}
+
+#Eliminate p {
+  font-size: 18px;
+  color: #081B33CC;
+  font-family: "futura-pt";
+  margin: 22.5px 0px 28.8px;
+}
+
+
+@media screen and (max-width: 992px) {
+  .banners {
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin: 0px 0px 22.41px;
+    color: #081B33;
+    font-family: "Calluna-Regular";
+  }
+
+  strong {
+    font-size: 16px;
+    color: #081B33CC;
+    font-family: "futura-pt";
+    font-weight: 900;
+  }
+
+  p {
+    font-size: 14px;
+    color: #081B33CC;
+    font-family: "futura-pt";
+    margin: 22.5px 0px 28.8px;
+  }
+
+
+  /* *********************************************************************************
+*******************         Eliminate       *************************************
+********************************************************************************* */
+
+  .eliminate img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  #Eliminate strong {
+    font-size: 18px;
+    color: #081B33;
+    font-family: "Calluna-Regular";
+  }
+
+  #Eliminate p {
+    font-size: 16px;
+    color: #081B33CC;
+    font-family: "futura-pt";
+    margin: 22.5px 0px 28.8px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .logo {
+    width: 200px;
+  }
+
+  .banners {
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+  }
+
+  h2 {
+    font-size: 16px;
+    /* margin: 0px 0px 22.41px; */
+    color: #081B33;
+    font-family: "Calluna-Regular";
+  }
+
+  strong {
+    font-size: 14px;
+    color: #081B33CC;
+    font-family: "futura-pt";
+    font-weight: 900;
+  }
+
+  p {
+    font-size: 12px;
+    color: #081B33CC;
+    font-family: "futura-pt";
+    /* margin: 22.5px 0px 28.8px; */
+  }
+
+  /* *********************************************************************************
+*******************         Eliminate       *************************************
+********************************************************************************* */
+
+  .eliminate img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  #Eliminate strong {
+    font-size: 16px;
+    color: #081B33;
+    font-family: "Calluna-Regular";
+  }
+
+  #Eliminate p {
+    font-size: 14px;
+    color: #081B33CC;
+    font-family: "futura-pt";
+    margin: 22.5px 0px 28.8px;
+  }
+
+  .content-1 iframe {
+    width: 100%;
+    height: 100%;
+
+  }
+
 }
